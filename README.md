@@ -28,8 +28,8 @@ test_case_i/
         g                  ← gravity vector (0 -9.81 0)
     system/
         blockMeshDict
-    9e-05/
-        alpha.metal        ← metal VOF field at final timestep
+    0.0012/
+        alpha.metal        ← metal VOF field at final timestep (t = 1.2 ms)
         solidificationTime ← solidification time field at final timestep
 ```
 
